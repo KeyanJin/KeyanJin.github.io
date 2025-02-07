@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>第一章作业</title>
+    <link href="/2025/02/07/%E7%AC%AC%E4%B8%80%E7%AB%A0%E4%BD%9C%E4%B8%9A/"/>
+    <url>/2025/02/07/%E7%AC%AC%E4%B8%80%E7%AB%A0%E4%BD%9C%E4%B8%9A/</url>
+    
+    <content type="html"><![CDATA[<h2 id="第一章作业"><a href="#第一章作业" class="headerlink" title="第一章作业"></a>第一章作业</h2><h5 id="1"><a href="#1" class="headerlink" title="1."></a>1.</h5><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs shell">useradd youzicha<br>pwd<br></code></pre></td></tr></table></figure><h5 id="2"><a href="#2" class="headerlink" title="2."></a>2.</h5><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">ls<br></code></pre></td></tr></table></figure><h5 id="3"><a href="#3" class="headerlink" title="3."></a>3.</h5><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">cd Desktop<br></code></pre></td></tr></table></figure><h5 id="4"><a href="#4" class="headerlink" title="4."></a>4.</h5><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">touch firststep<br></code></pre></td></tr></table></figure><h5 id="5"><a href="#5" class="headerlink" title="5."></a>5.</h5><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">vim hello211Lab.c<br></code></pre></td></tr></table></figure><h5 id="6"><a href="#6" class="headerlink" title="6."></a>6.</h5><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">sudo apt intall vim<br></code></pre></td></tr></table></figure><h5 id="7"><a href="#7" class="headerlink" title="7."></a>7.</h5><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">gcc hello211Lab.c -o hello211Lab<br></code></pre></td></tr></table></figure><h5 id="8"><a href="#8" class="headerlink" title="8."></a>8.</h5><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">./hello211Lab<br></code></pre></td></tr></table></figure><h5 id="9"><a href="#9" class="headerlink" title="9."></a>9.</h5><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">find /home/youzicha -name &quot;*Lab.c&quot;<br></code></pre></td></tr></table></figure><h5 id="10"><a href="#10" class="headerlink" title="10."></a>10.</h5><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">cp ./Desktop/firstStep/hello211Lab.c ./Desktop/firstStep/hello211Lab.bak<br></code></pre></td></tr></table></figure><h5 id="11"><a href="#11" class="headerlink" title="11."></a>11.</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">cd</span> Desktop<br><span class="hljs-built_in">mv</span> firstStep/ .*<br><span class="hljs-built_in">rm</span> -rf firstStep<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>homework</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hello World</title>
     <link href="/2025/01/01/hello-world/"/>
     <url>/2025/01/01/hello-world/</url>
