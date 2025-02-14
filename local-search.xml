@@ -4,6 +4,63 @@
   
   
   <entry>
+    <title>第三章作业</title>
+    <link href="/2025/02/11/%E7%AC%AC%E4%B8%89%E7%AB%A0%E4%BD%9C%E4%B8%9A/"/>
+    <url>/2025/02/11/%E7%AC%AC%E4%B8%89%E7%AB%A0%E4%BD%9C%E4%B8%9A/</url>
+    
+    <content type="html"><![CDATA[<h5 id="1"><a href="#1" class="headerlink" title="1."></a>1.</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs bash">cmake --version<br><span class="hljs-built_in">sudo</span> apt install cmake<br>wget https://cmake.org/files/v3.9/cmake-3.9.0-Linux-x86_64.tar.gz<br>tar -zxvf cmake-3.9.0-Linux-x86_64.tar.gz<br><span class="hljs-built_in">sudo</span> apt install cmake<br><span class="hljs-built_in">sudo</span> apt install build-essential qtbase5-dev qtbase5-dev-tools libqt5charts5-dev<br><span class="hljs-built_in">mkdir</span> build<br><span class="hljs-built_in">cd</span> build<br>cmake ..<br>make<br></code></pre></td></tr></table></figure><h5 id="2"><a href="#2" class="headerlink" title="2."></a>2.</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs bash">tar -czvf datasets.tgz datasets/<br>scp -P 45847 datasets.tgz root@i-2.gpushare.com:/hy-tmp/<br>tar -xzvf /hy-tmp/datasets.tgz -C /hy-tmp/<br><span class="hljs-built_in">nohup</span> python3 test.py &amp; <br>ps aux<br><span class="hljs-built_in">kill</span> 7520<br>scp -P 45847 root@i-2.gpushare.com:/hy-tmp/ultralytics/runs/detect/train1 result/<br></code></pre></td></tr></table></figure><h5 id="3"><a href="#3" class="headerlink" title="3."></a>3.</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs bash">docker pull ubuntu:22.04<br>docker run -it ubuntu:22.04<br>docker ps -a<br>docker pause 72fa7d384222<br>docker rmi ubuntu<br>docker <span class="hljs-built_in">rm</span> 72fa7d384222<br>docker rmi ubuntu<br></code></pre></td></tr></table></figure><h5 id="4"><a href="#4" class="headerlink" title="4."></a>4.</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash">wget https://github.com/OpenShot/openshot-qt/releases/download/v3.1.1/OpenShot-v3.1.1-x86_64.AppImage<br><span class="hljs-built_in">chmod</span> +x OpenShot-v3.1.1-x86_64.AppImage<br>./OpenShot-v3.1.1-x86_64.AppImage<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>homework</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>2024年2月10日</title>
+    <link href="/2025/02/10/2024-02-10/"/>
+    <url>/2025/02/10/2024-02-10/</url>
+    
+    <content type="html"><![CDATA[<h3 id="2024-02-10"><a href="#2024-02-10" class="headerlink" title="2024_02_10"></a>2024_02_10</h3><blockquote><p>靳科研，希望你向前看。</p></blockquote>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>wish</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>第二章作业</title>
+    <link href="/2025/02/07/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E4%BD%9C%E4%B8%9A/"/>
+    <url>/2025/02/07/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E4%BD%9C%E4%B8%9A/</url>
+    
+    <content type="html"><![CDATA[<h2 id="第二章作业"><a href="#第二章作业" class="headerlink" title="第二章作业"></a>第二章作业</h2><h3 id="一、安装Docker"><a href="#一、安装Docker" class="headerlink" title="一、安装Docker"></a>一、安装Docker</h3><h5 id="1"><a href="#1" class="headerlink" title="1."></a>1.</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">wget https://mirrors.tuna.tsinghua.edu.cn/docker-ce/linux/static/stable/x86_64/docker-27.5.1.tgz<br></code></pre></td></tr></table></figure><h5 id="2"><a href="#2" class="headerlink" title="2."></a>2.</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">sudo</span> tar -xvf docker-27.5.1.tgz -C /opt/docker<br></code></pre></td></tr></table></figure><h5 id="3"><a href="#3" class="headerlink" title="3."></a>3.</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">sudo</span> groupadd Docker<br><span class="hljs-built_in">sudo</span> usermod -g Docker 7uHeck<br><span class="hljs-built_in">sudo</span> newgrp Docker<br>docker version<br></code></pre></td></tr></table></figure><h5 id="4"><a href="#4" class="headerlink" title="4."></a>4.</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">:wq!<br></code></pre></td></tr></table></figure><h5 id="5"><a href="#5" class="headerlink" title="5."></a>5.</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash"><br></code></pre></td></tr></table></figure><h5 id="6"><a href="#6" class="headerlink" title="6."></a>6.</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs bash">```<br><span class="hljs-comment">### 二、下载模型</span><br>- DeepSeek-R1-Distill-Llama-8B-GGUF<br>- DeepSeek-R1-Distill-Qwen-1.5B-GGUF<br>- DeepSeek-R1-Distill-Qwen-7B-GGUF<br><span class="hljs-comment">### 三、在Docker中部署和使用llama.cpp</span><br>```bash<br>git <span class="hljs-built_in">clone</span> https://github.com/ggerganov/llama.cpp.git<br></code></pre></td></tr></table></figure><h3 id="服务器运维日常"><a href="#服务器运维日常" class="headerlink" title="服务器运维日常"></a>服务器运维日常</h3><h5 id="1-1"><a href="#1-1" class="headerlink" title="1."></a>1.</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">scp -P 114514 GalaxryX300@www.galaxry.top:/home/GalaxryX300/logs/web_logs.tar.gz /home/angel/logs<br></code></pre></td></tr></table></figure><h5 id="2-1"><a href="#2-1" class="headerlink" title="2."></a>2.</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">cd</span> home/angel/logs<br>tar -zxvf web_logs.tar.gz<br><span class="hljs-built_in">rm</span> -f web_logs.tar.gz<br></code></pre></td></tr></table></figure><h5 id="3-1"><a href="#3-1" class="headerlink" title="3."></a>3.</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">cd</span> web_logs<br>tree &gt; /home/angel/logs/dir_tree.txt<br></code></pre></td></tr></table></figure><h5 id="4-1"><a href="#4-1" class="headerlink" title="4."></a>4.</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">find /home/angel/logs/web_logs -name <span class="hljs-string">&quot;*.log&quot;</span> -<span class="hljs-built_in">exec</span> file &#123;&#125; +<br></code></pre></td></tr></table></figure><h5 id="5-1"><a href="#5-1" class="headerlink" title="5."></a>5.</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">grep <span class="hljs-string">&quot;ERROR&quot;</span> /home/angel/logs/web_logs/*.<span class="hljs-built_in">log</span> &gt; /opt/logs/error_summary.txt<br><span class="hljs-built_in">wc</span> -l /opt/logs/error_summary.txt<br></code></pre></td></tr></table></figure><h5 id="6-1"><a href="#6-1" class="headerlink" title="6."></a>6.</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">sort</span> /opt/logs/error_summary.txt | <span class="hljs-built_in">uniq</span> -c &gt; /opt/logs/error_stats.txt<br></code></pre></td></tr></table></figure><h5 id="7"><a href="#7" class="headerlink" title="7."></a>7.</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash">tar -czf /opt/logs/web_logs_fixed.tar.gz -C /opt/logs/<br>grep <span class="hljs-string">&quot;ERROR&quot;</span> /opt/logs/*.<span class="hljs-built_in">log</span> &gt; /opt/logs/error_summary_fixed.txt<br>diff /opt/logs/error_summary.txt /opt/logs/error_summary_fixed.txt &gt; /opt/logs/diff_result.txt<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>homework</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>第一章作业</title>
     <link href="/2025/02/07/%E7%AC%AC%E4%B8%80%E7%AB%A0%E4%BD%9C%E4%B8%9A/"/>
     <url>/2025/02/07/%E7%AC%AC%E4%B8%80%E7%AB%A0%E4%BD%9C%E4%B8%9A/</url>
